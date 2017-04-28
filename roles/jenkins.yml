@@ -2,4 +2,4 @@
   hosts: jenkins
   roles:
     # install jenkins
-    - { role: jenkins, become: yes, become_user: root }
+    - role: jenkins
