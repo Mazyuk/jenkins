@@ -2,8 +2,7 @@
 jenkins_dest: /opt/jenkins
 jenkins_lib: /var/lib/jenkins
 jenkins:
-    repo: # Jenkins repository
-      - 'deb http://pkg.jenkins.io/debian-stable binary/' 
+    repo: 'deb http://pkg.jenkins.io/debian-stable binary/' 
     dependencies: # Jenkins dependencies
       - '{{ java_version }}-jre'
       - '{{ java_version }}-jdk'
